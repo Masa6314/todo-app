@@ -11,6 +11,9 @@ fastapi = "^0.115.12"
 uvicorn = {extras = ["standard"], version = "^0.34.0"}
 sqlalchemy = "^2.0.40"
 aiomysql = "^0.2.0"
+alembic = "^1.15.2"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+email-validator = "^2.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
